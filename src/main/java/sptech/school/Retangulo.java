@@ -4,6 +4,9 @@ public class Retangulo extends Figura{
     private Double altura;
     private Double base;
 
+    public Retangulo() {
+    }
+
     public Double getAltura() {return altura;}
     public Double getBase() {return base;}
 

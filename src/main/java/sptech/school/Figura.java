@@ -4,6 +4,8 @@ public abstract class Figura {
     private String cor;
     private Integer espessura;
 
+    public Figura() {
+    }
 
     public String getCor() {return cor;}
     public Integer getEspessura() {return espessura;}

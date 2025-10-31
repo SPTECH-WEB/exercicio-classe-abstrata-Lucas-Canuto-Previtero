@@ -3,6 +3,8 @@ package sptech.school;
 public class Quadrado extends Figura {
     private Double lado;
 
+    public Quadrado() {
+    }
 
     public Double getLado() {return lado;}
     public void setLado(Double lado) {this.lado = lado;}

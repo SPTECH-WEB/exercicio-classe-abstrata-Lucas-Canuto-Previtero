@@ -4,6 +4,9 @@ public class Triangulo extends Figura{
     private Double base;
     private Double altura;
 
+    public Triangulo() {
+    }
+
     public Double getBase() {return base;}
     public Double getAltura() {return altura;}
 

@@ -6,6 +6,9 @@ import java.util.List;
 public class Imagem {
     private List<Figura> figuras;
 
+    public Imagem() {
+    }
+
     public void adicionar(Figura figura){
         figuras.add(figura);
     }

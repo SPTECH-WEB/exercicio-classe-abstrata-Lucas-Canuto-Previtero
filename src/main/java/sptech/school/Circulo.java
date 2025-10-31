@@ -3,6 +3,9 @@ package sptech.school;
 public class Circulo extends Figura{
     private Double raio;
 
+    public Circulo() {
+    }
+
     public Double getRaio() {return raio;}
     public void setRaio(Double raio) {this.raio = raio;}
 
